@@ -1,0 +1,97 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  display:flex;
+  justify-content: center;
+}
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.title{
+   color:black;
+   font-size:55px;
+   margin-bottom: 20px;
+}
+.addTag{
+  font-size:17px;
+  color:rgb(26, 160, 26);
+  font-weight:bold;
+}
+.main{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  width:600px;
+}
+.top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title,.addTag{
+  height:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Pname{
+  margin-left:7px;
+  align-items: center;
+}
+.newName,.newDate,.newAmount{
+  width:100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.name,.date-amount{
+   height:40px;
+   
+   margin-bottom: 20px;
+  display: flex;
+  justify-content: start;
+}
+.name input,.date-amount input{
+  width: 100%;
+}
+
+.addbtn{
+  display: flex;
+  justify-content: center;
+  margin-bottom : 10px;
+}
+.bottom{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-top:5px;
+  background-color: gray;
+  height:300px;
+  width:100%;
+ display: flex;
+flex-direction: column; 
+}
+.list{
+  background-color: white;
+  height:40px;
+  display: flex;
+  width:100%;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.desc{
+  background-color: white;
+  height:40px;
+  display: flex;
+  width:100%;
+  justify-content: center;
+  
+}
+.namet,.amount,.date{
+  display: flex;
+  width: 100%;
+  height:40px;
+  justify-content: center;
+  align-items: center;
+}
